@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-landing-page",
+  "version": "1.0.0",
+  "description": "A landing page created in order to practice tailwind CSS, courtesy of brad from Traversy Media",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ash-automates/tailwind-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ash-automates/tailwind-landing-page/issues"
+  },
+  "homepage": "https://github.com/ash-automates/tailwind-landing-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
